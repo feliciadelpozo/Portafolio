@@ -22,7 +22,7 @@ body, html {
     position: absolute;
     width: 90%; /* Ancho del texto */
     margin: auto; /* Centrar el texto horizontalmente */
-    font-family: 'Bebas Neue', sans-serif; /* Tipo de letra */
+    font-family: 'Protest Strike', sans-serif; /* Tipo de letra */
 }
 
 .welcome-text {
