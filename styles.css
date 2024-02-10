@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.about, .services {
+    padding: 20px;
+}
+
+.about h2, .services h2 {
+    color: #333;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+}
