@@ -1,7 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+.hero {
+    background-image: url('https://i.imgur.com/TSdkqni.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    position: absolute;
+}
+
+.welcome-text {
+    font-size: 3rem;
+    margin: 20px 0;
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 header, footer {
