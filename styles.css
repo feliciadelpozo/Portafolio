@@ -20,7 +20,7 @@ body, html {
 
 .hero-text {
     position: absolute;
-    width: 90%; /* Ancho del texto */
+    width: 75%; /* Ancho del texto */
     margin: auto; /* Centrar el texto horizontalmente */
     font-family: 'Protest Strike', sans-serif; /* Tipo de letra */
 }
