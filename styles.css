@@ -18,11 +18,13 @@ body, html {
 
 .hero-text {
     position: absolute;
-    z-index: 1; /* Asegura que el texto esté por encima de la imagen de fondo */
+    width: 75%; /* Ancho del texto */
+    margin: auto; /* Centrar el texto horizontalmente */
+    font-family: 'Bebas Neue', sans-serif; /* Tipo de letra */
 }
 
 .welcome-text {
-    font-size: 3rem;
+    font-size: 6rem; /* Tamaño del texto */
     margin: 20px 0;
     opacity: 0;
     animation: fadeIn 3s forwards;
